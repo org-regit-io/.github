@@ -66,6 +66,6 @@ Please send your **GitHub** (Primary) and **CV** (Secondary).
 
 **Regit**
 
-[Contact](mailto:hello@regit.io)
+[Contact](mailto:info@regit.io)
 
 </div>
