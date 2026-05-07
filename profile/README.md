@@ -17,6 +17,21 @@ Documents, filings, lookthrough, distribution: everything reads from the same so
 &nbsp;·&nbsp;
 <a href="mailto:info@regit.io">info@regit.io</a>
 
+<br/><br/>
+
+<sub>
+  <a href="#system">System</a> &nbsp;·&nbsp;
+  <a href="#regulation-we-cover">Regulation</a> &nbsp;·&nbsp;
+  <a href="#full-lookthrough-up-to-sicav-level">Lookthrough</a> &nbsp;·&nbsp;
+  <a href="#coming-end-of-day-calc-engine-via-mcp">MCP</a> &nbsp;·&nbsp;
+  <a href="#architecture">Architecture</a> &nbsp;·&nbsp;
+  <a href="#the-platform">Platform</a> &nbsp;·&nbsp;
+  <a href="#open-source">Open Source</a> &nbsp;·&nbsp;
+  <a href="#compliance--standards">Compliance</a> &nbsp;·&nbsp;
+  <a href="#engineering-posture">Posture</a> &nbsp;·&nbsp;
+  <a href="#engineering-hiring">Hiring</a>
+</sub>
+
 </div>
 
 ---
@@ -175,19 +190,27 @@ One Golden Record. Two modules live.
 
 Regit OS itself is proprietary and unpublished. A few of the underlying crates ship under Apache 2.0 so the community can verify the math.
 
+### [regit-blackscholes](https://github.com/regit-io/regit-blackscholes)
+
 <p>
-  <a href="https://github.com/regit-io/regit-blackscholes">
-    <img alt="regit-blackscholes" src="https://github-readme-stats.vercel.app/api/pin/?username=regit-io&repo=regit-blackscholes&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=2563eb&text_color=c9d1d9" />
-  </a>
-  <a href="https://github.com/regit-io/regit-covariance">
-    <img alt="regit-covariance" src="https://github-readme-stats.vercel.app/api/pin/?username=regit-io&repo=regit-covariance&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=2563eb&text_color=c9d1d9" />
-  </a>
+  <img alt="Stars" src="https://img.shields.io/github/stars/regit-io/regit-blackscholes?style=flat-square&color=2563eb&logo=github&logoColor=white" />
+  <img alt="Language" src="https://img.shields.io/github/languages/top/regit-io/regit-blackscholes?style=flat-square&color=CE422B&logo=rust&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/github/license/regit-io/regit-blackscholes?style=flat-square&color=22c55e" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/regit-io/regit-blackscholes?style=flat-square&color=1f2937" />
 </p>
 
-| Crate | Description | License |
-| :--- | :--- | :--- |
-| [**regit-blackscholes**](https://github.com/regit-io/regit-blackscholes) | Zero-dependency Black-Scholes options pricing engine in pure Rust. 4 models, 17 analytic Greeks, multi-strategy IV solver. Sub-5ns normal CDF. | Apache 2.0 |
-| [**regit-covariance**](https://github.com/regit-io/regit-covariance) | Covariance matrix denoising for financial risk validation. Marchenko-Pastur filtering, Ledoit-Wolf shrinkage, detoning. Built to validate PRIIPs risk metrics. | Apache 2.0 |
+Zero-dependency Black-Scholes options pricing engine in pure Rust. 4 models, 17 analytic Greeks, multi-strategy IV solver. Sub-5ns normal CDF.
+
+### [regit-covariance](https://github.com/regit-io/regit-covariance)
+
+<p>
+  <img alt="Stars" src="https://img.shields.io/github/stars/regit-io/regit-covariance?style=flat-square&color=2563eb&logo=github&logoColor=white" />
+  <img alt="Language" src="https://img.shields.io/github/languages/top/regit-io/regit-covariance?style=flat-square&color=CE422B&logo=rust&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/github/license/regit-io/regit-covariance?style=flat-square&color=22c55e" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/regit-io/regit-covariance?style=flat-square&color=1f2937" />
+</p>
+
+Covariance matrix denoising for financial risk validation. Marchenko-Pastur filtering, Ledoit-Wolf shrinkage, detoning. Built to validate PRIIPs risk metrics.
 
 ---
 
