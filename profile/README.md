@@ -190,27 +190,37 @@ One Golden Record. Two modules live.
 
 Regit OS itself is proprietary and unpublished. A few of the underlying crates ship under Apache 2.0 so the community can verify the math.
 
-### [regit-blackscholes](https://github.com/regit-io/regit-blackscholes)
+### [regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes)
 
 <p>
-  <img alt="Stars" src="https://img.shields.io/github/stars/regit-io/regit-blackscholes?style=flat-square&color=2563eb&logo=github&logoColor=white" />
-  <img alt="Language" src="https://img.shields.io/github/languages/top/regit-io/regit-blackscholes?style=flat-square&color=CE422B&logo=rust&logoColor=white" />
-  <img alt="License" src="https://img.shields.io/github/license/regit-io/regit-blackscholes?style=flat-square&color=22c55e" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/regit-io/regit-blackscholes?style=flat-square&color=1f2937" />
+  <a href="https://crates.io/crates/regit-blackscholes"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-blackscholes?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
+  <a href="https://docs.rs/regit-blackscholes"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-blackscholes?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
+  <img alt="Stars" src="https://img.shields.io/github/stars/org-regit-io/regit-blackscholes?style=flat-square&color=1f2937&logo=github&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/github/license/org-regit-io/regit-blackscholes?style=flat-square&color=22c55e" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/org-regit-io/regit-blackscholes?style=flat-square&color=1f2937" />
 </p>
 
 Zero-dependency Black-Scholes options pricing engine in pure Rust. 4 models, 17 analytic Greeks, multi-strategy IV solver. Sub-5ns normal CDF.
 
-### [regit-covariance](https://github.com/regit-io/regit-covariance)
+```sh
+cargo add regit-blackscholes
+```
+
+### [regit-covariance](https://github.com/org-regit-io/regit-covariance)
 
 <p>
-  <img alt="Stars" src="https://img.shields.io/github/stars/regit-io/regit-covariance?style=flat-square&color=2563eb&logo=github&logoColor=white" />
-  <img alt="Language" src="https://img.shields.io/github/languages/top/regit-io/regit-covariance?style=flat-square&color=CE422B&logo=rust&logoColor=white" />
-  <img alt="License" src="https://img.shields.io/github/license/regit-io/regit-covariance?style=flat-square&color=22c55e" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/regit-io/regit-covariance?style=flat-square&color=1f2937" />
+  <a href="https://crates.io/crates/regit-covariance"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-covariance?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
+  <a href="https://docs.rs/regit-covariance"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-covariance?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
+  <img alt="Stars" src="https://img.shields.io/github/stars/org-regit-io/regit-covariance?style=flat-square&color=1f2937&logo=github&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/github/license/org-regit-io/regit-covariance?style=flat-square&color=22c55e" />
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/org-regit-io/regit-covariance?style=flat-square&color=1f2937" />
 </p>
 
 Covariance matrix denoising for financial risk validation. Marchenko-Pastur filtering, Ledoit-Wolf shrinkage, detoning. Built to validate PRIIPs risk metrics.
+
+```sh
+cargo add regit-covariance
+```
 
 ---
 
@@ -259,7 +269,7 @@ We hire small. We hold a high bar. We pay for output, not hours.
 
 If you are a Rust engineer who would rather solve a regulator-anchor than attend a scrum meeting, we want to read your code. Send your **GitHub** first, **CV** second, to **[info@regit.io](mailto:info@regit.io)**.
 
-The crates above ([regit-blackscholes](https://github.com/regit-io/regit-blackscholes), [regit-covariance](https://github.com/regit-io/regit-covariance)) are a fair sample of the bar.
+The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance)) are a fair sample of the bar.
 
 ---
 
