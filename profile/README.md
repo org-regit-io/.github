@@ -195,9 +195,8 @@ Regit OS itself is proprietary and unpublished. A few of the underlying crates s
 <p>
   <a href="https://crates.io/crates/regit-blackscholes"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-blackscholes?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
   <a href="https://docs.rs/regit-blackscholes"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-blackscholes?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
-  <img alt="Stars" src="https://img.shields.io/github/stars/org-regit-io/regit-blackscholes?style=flat-square&color=1f2937&logo=github&logoColor=white" />
-  <img alt="License" src="https://img.shields.io/github/license/org-regit-io/regit-blackscholes?style=flat-square&color=22c55e" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/org-regit-io/regit-blackscholes?style=flat-square&color=1f2937" />
+  <a href="https://crates.io/crates/regit-blackscholes"><img alt="Downloads" src="https://img.shields.io/crates/d/regit-blackscholes?style=flat-square&color=1f2937&logo=rust&logoColor=white" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-22c55e?style=flat-square" />
 </p>
 
 Zero-dependency Black-Scholes options pricing engine in pure Rust. 4 models, 17 analytic Greeks, multi-strategy IV solver. Sub-5ns normal CDF.
@@ -211,9 +210,8 @@ cargo add regit-blackscholes
 <p>
   <a href="https://crates.io/crates/regit-covariance"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-covariance?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
   <a href="https://docs.rs/regit-covariance"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-covariance?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
-  <img alt="Stars" src="https://img.shields.io/github/stars/org-regit-io/regit-covariance?style=flat-square&color=1f2937&logo=github&logoColor=white" />
-  <img alt="License" src="https://img.shields.io/github/license/org-regit-io/regit-covariance?style=flat-square&color=22c55e" />
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/org-regit-io/regit-covariance?style=flat-square&color=1f2937" />
+  <a href="https://crates.io/crates/regit-covariance"><img alt="Downloads" src="https://img.shields.io/crates/d/regit-covariance?style=flat-square&color=1f2937&logo=rust&logoColor=white" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-22c55e?style=flat-square" />
 </p>
 
 Covariance matrix denoising for financial risk validation. Marchenko-Pastur filtering, Ledoit-Wolf shrinkage, detoning. Built to validate PRIIPs risk metrics.
