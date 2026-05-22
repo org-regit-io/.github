@@ -235,6 +235,21 @@ Arbitrage-free SVI volatility surfaces in pure Rust. Raw, Jump-Wings and SSVI pa
 cargo add regit-svi
 ```
 
+### [regit-identifiers](https://github.com/org-regit-io/regit-identifiers)
+
+<p>
+  <a href="https://crates.io/crates/regit-identifiers"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-identifiers?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
+  <a href="https://docs.rs/regit-identifiers"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-identifiers?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
+  <a href="https://crates.io/crates/regit-identifiers"><img alt="Downloads" src="https://img.shields.io/crates/d/regit-identifiers?style=flat-square&color=1f2937&logo=rust&logoColor=white" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-22c55e?style=flat-square" />
+</p>
+
+Securities identifier validation in pure Rust — ISIN, CUSIP, SEDOL, LEI, BIC, MIC, FIGI, CFI and national numbers. Check-digit algorithms hand-rolled from each governing standard, ISO 10383 MIC registry embedded. Zero dependencies, `no_std`, no `alloc`.
+
+```sh
+cargo add regit-identifiers
+```
+
 ---
 
 ## Compliance & Standards
@@ -282,7 +297,7 @@ We hire small. We hold a high bar. We pay for output, not hours.
 
 If you are a Rust engineer who would rather solve a regulator-anchor than attend a scrum meeting, we want to read your code. Send your **GitHub** first, **CV** second, to **[info@regit.io](mailto:info@regit.io)**.
 
-The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi)) are a fair sample of the bar.
+The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi), [regit-identifiers](https://github.com/org-regit-io/regit-identifiers)) are a fair sample of the bar.
 
 ---
 
