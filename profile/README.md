@@ -23,7 +23,7 @@ Documents, filings, lookthrough, distribution: everything reads from the same so
   <a href="#system">System</a> &nbsp;·&nbsp;
   <a href="#regulation-we-cover">Regulation</a> &nbsp;·&nbsp;
   <a href="#full-lookthrough-up-to-sicav-level">Lookthrough</a> &nbsp;·&nbsp;
-  <a href="#coming-end-of-day-calc-engine-via-mcp">MCP</a> &nbsp;·&nbsp;
+  <a href="#calc-engine-via-mcp--live-in-beta">MCP</a> &nbsp;·&nbsp;
   <a href="#architecture">Architecture</a> &nbsp;·&nbsp;
   <a href="#the-platform">Platform</a> &nbsp;·&nbsp;
   <a href="#open-source">Open Source</a> &nbsp;·&nbsp;
@@ -134,20 +134,21 @@ Concentration-by-vehicle, audit reconstruction, leaf-level effective exposure: s
 
 ---
 
-## Coming End of Day: Calc Engine via MCP
+## Calc Engine via MCP — Live in Beta
 
-The full Rust calc engine, exposed as a **Model Context Protocol** server. **Two weeks free** so your validators can hit it with anchor inputs and compare to our Decimal-50 transcripts.
+The full Rust calc engine, exposed as a **Model Context Protocol** server. **Live now** with a **14-day free trial** so your validators can hit it with anchor inputs and compare to our Decimal-50 transcripts.
 
 <p>
+  <a href="https://www.regit.io/mcp"><img src="https://img.shields.io/badge/Status-Live_in_Beta-22c55e?style=flat-square" /></a>
   <img src="https://img.shields.io/badge/Distribution-StreamableHTTP_on_Cloudflare_Workers-2563eb?style=flat-square" />
-  <img src="https://img.shields.io/badge/Trial-2_weeks_free-22c55e?style=flat-square" />
+  <img src="https://img.shields.io/badge/Trial-14_days_free-22c55e?style=flat-square" />
   <img src="https://img.shields.io/badge/I%2FO-JSON_Schema_typed-1f2937?style=flat-square" />
   <img src="https://img.shields.io/badge/Diagnostics-Replay--ready_envelope-1f2937?style=flat-square" />
 </p>
 
 Tools are organised by regulation, with strongly-typed JSON Schema I/O. Every response carries a diagnostics envelope: input echo, RNG seed, regulation version pin, deferred-features manifest. Regulator-grade replay is one re-call away.
 
-Want early access? **[info@regit.io](mailto:info@regit.io)**.
+**[regit.io/mcp →](https://www.regit.io/mcp)** &nbsp;·&nbsp; questions: **[info@regit.io](mailto:info@regit.io)**.
 
 ---
 
