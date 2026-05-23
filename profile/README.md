@@ -250,6 +250,21 @@ Securities identifier validation in pure Rust — ISIN, CUSIP, SEDOL, LEI, BIC, 
 cargo add regit-identifiers
 ```
 
+### [regit-daycount](https://github.com/org-regit-io/regit-daycount)
+
+<p>
+  <a href="https://crates.io/crates/regit-daycount"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-daycount?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
+  <a href="https://docs.rs/regit-daycount"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-daycount?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
+  <a href="https://crates.io/crates/regit-daycount"><img alt="Downloads" src="https://img.shields.io/crates/d/regit-daycount?style=flat-square&color=1f2937&logo=rust&logoColor=white" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-22c55e?style=flat-square" />
+</p>
+
+Day-count fractions and business-day calendars in pure Rust — every ISDA 2006 §4.16 convention plus ICMA Rule 251 (Act/360, Act/365F, Act/Act ISDA & ICMA, 30/360 family, Act/365L, NL/365, Bus/252, 1/1), the full date-roll catalogue, and eight holiday calendars (TARGET2 and Luxembourg as rule-based generators; US, UK, Japan, Switzerland, Hong Kong, Singapore as 2020–2040 snapshots cross-verified against primary published sources). Zero dependencies, `no_std`, no `alloc`.
+
+```sh
+cargo add regit-daycount
+```
+
 ---
 
 ## Compliance & Standards
@@ -297,7 +312,7 @@ We hire small. We hold a high bar. We pay for output, not hours.
 
 If you are a Rust engineer who would rather solve a regulator-anchor than attend a scrum meeting, we want to read your code. Send your **GitHub** first, **CV** second, to **[info@regit.io](mailto:info@regit.io)**.
 
-The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi), [regit-identifiers](https://github.com/org-regit-io/regit-identifiers)) are a fair sample of the bar.
+The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi), [regit-identifiers](https://github.com/org-regit-io/regit-identifiers), [regit-daycount](https://github.com/org-regit-io/regit-daycount)) are a fair sample of the bar.
 
 ---
 
