@@ -265,6 +265,21 @@ Day-count fractions and business-day calendars in pure Rust — every ISDA 2006 
 cargo add regit-daycount
 ```
 
+### [regit-curves](https://github.com/org-regit-io/regit-curves)
+
+<p>
+  <a href="https://crates.io/crates/regit-curves"><img alt="crates.io" src="https://img.shields.io/crates/v/regit-curves?style=flat-square&color=ff9b3f&logo=rust&logoColor=white" /></a>
+  <a href="https://docs.rs/regit-curves"><img alt="docs.rs" src="https://img.shields.io/docsrs/regit-curves?style=flat-square&color=2563eb&logo=docsdotrs&logoColor=white" /></a>
+  <a href="https://crates.io/crates/regit-curves"><img alt="Downloads" src="https://img.shields.io/crates/d/regit-curves?style=flat-square&color=1f2937&logo=rust&logoColor=white" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-22c55e?style=flat-square" />
+</p>
+
+Audit-grade interest-rate yield curve bootstrap and interpolation in pure Rust. 7 instruments (deposits, FRAs, STIR futures, vanilla and OIS swaps, basis swaps, coupon bonds), 10 interpolators (Linear, LogLinear, LinearInZero, PiecewiseConstantForward, CubicSpline, HermiteBessel, MonotoneCubic, MonotoneSteffen, MonotoneHyman, ConvexMonotone), single- and multi-curve (OIS-discounted). Cross-checked bit-exact against scipy and tf-quant-finance; matched against QuantLib to its own solver tolerance. Zero dependencies.
+
+```sh
+cargo add regit-curves
+```
+
 ---
 
 ## Compliance & Standards
@@ -312,7 +327,7 @@ We hire small. We hold a high bar. We pay for output, not hours.
 
 If you are a Rust engineer who would rather solve a regulator-anchor than attend a scrum meeting, we want to read your code. Send your **GitHub** first, **CV** second, to **[info@regit.io](mailto:info@regit.io)**.
 
-The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi), [regit-identifiers](https://github.com/org-regit-io/regit-identifiers), [regit-daycount](https://github.com/org-regit-io/regit-daycount)) are a fair sample of the bar.
+The crates above ([regit-blackscholes](https://github.com/org-regit-io/regit-blackscholes), [regit-covariance](https://github.com/org-regit-io/regit-covariance), [regit-svi](https://github.com/org-regit-io/regit-svi), [regit-identifiers](https://github.com/org-regit-io/regit-identifiers), [regit-daycount](https://github.com/org-regit-io/regit-daycount), [regit-curves](https://github.com/org-regit-io/regit-curves)) are a fair sample of the bar.
 
 ---
 
