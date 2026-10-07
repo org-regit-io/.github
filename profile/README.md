@@ -10,8 +10,8 @@ Connect financial data, execute regulatory calculations, and produce reports wit
 [Discuss your workflow](https://www.regit.io/contact?purpose=walkthrough) · [See how it works](https://www.regit.io/#platform)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg">
-  <img src="assets/workflow-light.svg" alt="Financial data enters a Regit workflow where regulatory calculations and human review keep evidence linked to a report." width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/platform-dark.svg">
+  <img src="assets/platform-light.svg" alt="Illustration of fragmented data entering Regit's governed record and continuing through product work toward regulated assets." width="1200">
 </picture>
 
 Source revisions, rules and decisions stay linked to the work they support, so teams can understand a result and act on it without reconstructing its history.
