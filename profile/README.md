@@ -1,13 +1,20 @@
 <!-- SPDX-License-Identifier: LicenseRef-Proprietary
 SPDX-FileCopyrightText: 2026 Regit.io -->
 
-# Regit
+**Regulatory infrastructure**
 
-**Regulatory work should carry its evidence forward.**
+# Get the regulatory job done.
 
-Regit connects financial data, regulatory calculations, human review and outputs. Source revisions, rules and decisions stay linked to the work they support, so teams can understand a result and act on it without reconstructing its history.
+Connect financial data, execute regulatory calculations, and produce reports with evidence attached.
 
-[Website](https://www.regit.io/) · [Platform](https://www.regit.io/platform/) · [Regulatory coverage](https://www.regit.io/coverage/) · [Contact](https://www.regit.io/contact/)
+[Discuss your workflow](https://www.regit.io/contact?purpose=walkthrough) · [See how it works](https://www.regit.io/#platform)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg">
+  <img src="assets/workflow-light.svg" alt="Financial data enters a Regit workflow where regulatory calculations and human review keep evidence linked to a report." width="1200">
+</picture>
+
+Source revisions, rules and decisions stay linked to the work they support, so teams can understand a result and act on it without reconstructing its history.
 
 ## Ways to work
 

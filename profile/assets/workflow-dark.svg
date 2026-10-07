@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <!-- SPDX-License-Identifier: LicenseRef-Proprietary
+       SPDX-FileCopyrightText: 2026 Regit.io -->
+  <title id="title">The Regit regulatory workflow</title>
+  <desc id="description">Financial data moves into regulatory calculation and human review. The report retains its source, rule basis and decision evidence.</desc>
+  <style>@media (prefers-reduced-motion: reduce) { .flow-dot { display: none; } }</style>
+
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="#1b1d2b" stroke="#42465a" stroke-width="2"/>
+  <text x="50" y="51" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">ONE CONNECTED REGULATORY JOB</text>
+
+  <rect x="48" y="82" width="278" height="222" rx="16" fill="#262938" stroke="#42465a" stroke-width="2"/>
+  <rect x="100" y="111" width="45" height="55" rx="5" fill="#a99ff0" opacity=".23"/>
+  <rect x="88" y="123" width="45" height="55" rx="5" fill="#a99ff0" opacity=".48"/>
+  <rect x="76" y="135" width="45" height="55" rx="5" fill="#a99ff0"/>
+  <rect x="85" y="148" width="27" height="3" rx="1.5" fill="#262938"/>
+  <rect x="85" y="158" width="24" height="3" rx="1.5" fill="#262938"/>
+  <rect x="85" y="168" width="18" height="3" rx="1.5" fill="#262938"/>
+  <text x="80" y="214" fill="#f1f2f7" font-family="Inter, system-ui, sans-serif" font-size="23" font-weight="700">Financial data</text>
+  <text x="80" y="242" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15">Selected source revisions</text>
+  <text x="80" y="266" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15">and defined scope</text>
+
+  <rect x="339" y="191" width="25" height="4" rx="2" fill="#a99ff0"/>
+  <polygon points="357,184 369,193 357,202" fill="#a93391"/>
+  <circle class="flow-dot" cx="343" cy="193" r="3.5" fill="#a93391"><animate attributeName="cx" values="343;363" dur="2.8s" repeatCount="indefinite"/></circle>
+
+  <rect x="382" y="82" width="431" height="222" rx="16" fill="#262938" stroke="#a99ff0" stroke-width="2"/>
+  <rect x="383" y="83" width="214" height="5" rx="2.5" fill="#2a47a4"/>
+  <rect x="597" y="83" width="215" height="5" rx="2.5" fill="#a93391"/>
+  <text x="412" y="119" fill="#f1f2f7" font-family="Inter, system-ui, sans-serif" font-size="21" font-weight="700">Regit workflow</text>
+  <path d="M412 135h371" stroke="#42465a" stroke-width="1.5"/>
+  <circle cx="435" cy="173" r="15" fill="#393452"/>
+  <rect x="428" y="166" width="6" height="6" rx="1" fill="#a99ff0"/>
+  <rect x="436" y="166" width="6" height="6" rx="1" fill="#a99ff0"/>
+  <rect x="428" y="174" width="6" height="6" rx="1" fill="#a99ff0"/>
+  <rect x="436" y="174" width="6" height="6" rx="1" fill="#a99ff0"/>
+  <text x="466" y="178" fill="#f1f2f7" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">Regulatory calculation</text>
+  <circle cx="435" cy="226" r="15" fill="#393452"/>
+  <rect x="428" y="221" width="14" height="3" rx="1.5" fill="#a99ff0"/>
+  <rect x="428" y="228" width="10" height="3" rx="1.5" fill="#a99ff0"/>
+  <text x="466" y="231" fill="#f1f2f7" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="600">Review and evidence</text>
+  <text x="412" y="277" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="14">Rule basis · Inputs · Decision</text>
+
+  <rect x="827" y="191" width="25" height="4" rx="2" fill="#a99ff0"/>
+  <polygon points="845,184 857,193 845,202" fill="#a93391"/>
+  <circle class="flow-dot" cx="831" cy="193" r="3.5" fill="#a93391"><animate attributeName="cx" values="831;851" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+
+  <rect x="870" y="82" width="282" height="222" rx="16" fill="#262938" stroke="#42465a" stroke-width="2"/>
+  <rect x="902" y="116" width="52" height="65" rx="6" fill="#a99ff0"/>
+  <rect x="912" y="133" width="31" height="3" rx="1.5" fill="#262938"/>
+  <rect x="912" y="144" width="31" height="3" rx="1.5" fill="#262938"/>
+  <rect x="912" y="155" width="24" height="3" rx="1.5" fill="#262938"/>
+  <rect x="912" y="166" width="17" height="3" rx="1.5" fill="#262938"/>
+  <text x="902" y="214" fill="#f1f2f7" font-family="Inter, system-ui, sans-serif" font-size="23" font-weight="700">Report &amp; output</text>
+  <text x="902" y="242" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15">Result with its evidence</text>
+  <text x="902" y="266" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15">attached</text>
+
+  <text x="50" y="337" fill="#b9bbc7" font-family="Inter, system-ui, sans-serif" font-size="15">The source revision, rule path and decision stay connected to the result.</text>
+</svg>
